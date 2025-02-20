@@ -1,7 +1,7 @@
 const questions = [
     { q: "I balance between extremes, letting you turn fate with a twist, shifting resistance to your will. Who am I?", a: "Potentiometer", room: "AEC Lab" },
     { q: "A whisper of control at my gate unleashes a river beyond. I am the bridge between weak and strong signals. Who am I?", a: "BJT || Transistor", room: "Room 303" },
-    { q: "I devour electrons and return them as brilliance, yet a wrong approach leaves me in darkness. What am I?", a: "LED", room: "Room 405" }
+    { q: "I devour electrons and return them as brilliance, yet a wrong approach leaves me in darkness. What am I?", a: "LED || Light Emitting Diode", room: "Room 405" }
 ];
 
 let attemptCounts = JSON.parse(localStorage.getItem("attemptCounts")) || Array(questions.length).fill(0);
